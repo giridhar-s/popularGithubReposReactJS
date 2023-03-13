@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.responsive-popular-reps-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-heading {
+  color: #0f172a;
+  font-size: 40px;
+  font-family: Lobster;
+  letter-spacing: 2px;
+  margin: 25px 0 30px 0;
+}
+.tabs-list {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  max-width: 700px;
+  list-style: none;
+  margin-bottom: 20px;
+}
+.repositories-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px;
+  list-style: none;
+  width: 90%;
+  max-width: 820px;
+  margin: 2px auto;
+}
+.loader-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .main-heading {
+    font-size: 32px;
+    margin: 20px 0 28px 0;
+  }
+}
